@@ -55,8 +55,6 @@ article+article
 .content
   h1, h2, h3, h4, h5, h6
     line-height: 1.25
-    &:not(:first-child)
-      margin-top: 80px
     &::before
       color: #aeb1b5
       font-weight: bold
@@ -70,28 +68,16 @@ article+article
     margin-top: 20px
   h1
     font-size: 24px
-    &::before
-      content: "# "
   h2
     font-size: 22px
-    &::before
-      content: "## "
   h3
     font-size: 20px
-    &::before
-      content: "### "
   h4
     font-size: 18px
-    &::before
-      content: "#### "
   h5
     font-size: 17px
-    &::before
-      content: "##### "
   h6
     font-size: 16px
-    &::before
-      content: "###### "
   p,
   ol,
   ul,
